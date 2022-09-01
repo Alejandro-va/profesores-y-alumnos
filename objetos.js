@@ -26,7 +26,7 @@ formulario.addEventListener("submit", (e) => {
     nombre: nombre.value,
     edad: edad.value,
     rol: rol.value,
-    id: new Date(),
+    id: Date.now(),
   };
   console.log(objetoDatos.rol == 1 ? true : false);
   personas.push(objetoDatos);
