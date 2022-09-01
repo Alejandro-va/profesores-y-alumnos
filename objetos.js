@@ -33,7 +33,7 @@ formulario.addEventListener("submit", (e) => {
 
   if (objetoDatos.rol == 2) {
     pintarCardEstudiante();
-    //console.log(objetoDatos.rol);
+    console.log(objetoDatos);
   } else {
     pintarCardProfesor();
     //console.log(objetoDatos.rol);
